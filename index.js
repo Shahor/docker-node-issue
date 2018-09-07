@@ -3,8 +3,7 @@ const Got = require("got")
 const ENCODING = "utf8"
 
 const maxSize = 5e6
-const url =
-    "https://storage.googleapis.com/slite-api-files-production/files/0000eafb-39d3-4cfd-9edf-53797a6742df/wup.md"
+const url = "https://storage.googleapis.com/slite-cdn/wup.md"
 
 let hasFinishedPrematurely = false
 let buffer = Buffer.from("", ENCODING)

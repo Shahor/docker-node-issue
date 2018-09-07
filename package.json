@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "got": "^9.2.1"
+  },
+  "scripts": {
+    "start": "docker build -t node-docker-issue . && docker run node-docker-issue"
   }
 }
