@@ -4,7 +4,7 @@ const ENCODING = "utf8"
 
 const maxSize = 5e6
 const url =
-    "https://storage.googleapis.com/slite-tmp-staging/files/76ce14d9-e446-4fa0-bbaf-605792c776d8/Add%2520a%2520location%2520to%2520a%2520User.md"
+    "https://storage.googleapis.com/slite-api-files-production/files/0000eafb-39d3-4cfd-9edf-53797a6742df/wup.md"
 
 let hasFinishedPrematurely = false
 let buffer = Buffer.from("", ENCODING)
